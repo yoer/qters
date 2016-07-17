@@ -1,0 +1,18 @@
+[submodule "build"]
+	path = build
+	url = https://github.com/Qters/build.git
+[submodule "qrcommon"]
+	path = qrcommon
+	url = https://github.com/Qters/qrcommon.git
+[submodule "qrorm"]
+	path = qrorm
+	url = https://github.com/Qters/qrorm.git
+[submodule "qrframe"]
+	path = qrframe
+	url = https://github.com/Qters/qrframe.git
+[submodule "qrtest"]
+	path = qrtest
+	url = https://github.com/Qters/qrtest.git
+[submodule "qrlogger"]
+	path = qrlogger
+	url = https://github.com/Qters/qrlogger.git
