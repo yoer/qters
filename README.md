@@ -17,9 +17,9 @@
 
 ## how to run
 
-    *   chaos
-        1. copy database from '$QTERS_BASE/QrFrame/chaos/data/chaos.db' to '$QTERS_BASE/../Qters_build/debug_dest/data/chaos.db'
-        2. run '$QTERS_BASE/../Qters_build/chaosd'
+*   chaos
+    1. copy database from '$QTERS_BASE/QrFrame/chaos/data/chaos.db' to '$QTERS_BASE/../Qters_build/debug_dest/data/chaos.db'
+    2. run '$QTERS_BASE/../Qters_build/chaosd'
 
 ## framework
 
@@ -34,36 +34,45 @@
     
 ### submodule(DONE)
 
-    *   qrtest
-        test framework
-    
-    *   qrlogger
-        simple, convinient and thread safe logger
-    
-    *   qrorm
-        orm framework
-    
-    *   qrcommon
-        common library
-    
-    *   qrframe
-        cilent develop framework
-    
+*   qrtest
 
-        *   chaos
-            a client framework in common use
+    test framework
+
+*   qrlogger
+
+    simple, convinient and thread safe logger
+
+*   qrorm
+
+    orm framework
+
+*   qrcommon
+
+    common library
+
+*   qrframe
+
+    cilent develop framework
+
+    *   chaos
+    
+        a client framework in common use
     
 
 ### submodule(DOING)
 
-    *   qrwidgets
-        widgets
-        
-    *   qrupdater
-        update framework
-        
-    *   qrcache
-        cache
-        
-    *   qrtools
-        toolkits
+*   qrwidgets
+
+    widgets
+    
+*   qrupdater
+
+    update framework
+    
+*   qrcache
+
+    cache
+    
+*   qrtools
+
+    toolkits
