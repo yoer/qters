@@ -16,3 +16,6 @@
 [submodule "qrlogger"]
 	path = qrlogger
 	url = https://github.com/Qters/qrlogger.git
+[submodule "qrwidgets"]
+	path = qrwidgets
+	url = https://github.com/Qters/qrwidgets.git
