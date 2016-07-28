@@ -9,6 +9,11 @@
         git clone https://github.com/yoer/qters.git
         cd qters(which call $QTERS_BASE under)
         git submodule update --init --recursive
+		
+		
+	after clone, then execute followed command to checkout all submodules's branch to master : 
+	
+		find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} checkout master \;
 
 ## how to build
 
@@ -34,23 +39,23 @@
     
 ### submodule(DONE)
 
-*   qrtest
+*   [qrtest](https://github.com/qters/qrtest.git)
 
     test framework
 
-*   qrlogger
+*   [qrlogger](https://github.com/qters/qrlogger.git)
 
     simple, convinient and thread safe logger
 
-*   qrorm
+*   [qrorm](https://github.com/qters/qrorm.git)
 
     orm framework
 
-*   qrcommon
+*   [qrcommon](https://github.com/qters/qrcommon.git)
 
     common library
 
-*   qrframe
+*   [qrframe](https://github.com/qters/qrframe.git)
 
     cilent develop framework
 
@@ -61,18 +66,18 @@
 
 ### submodule(DOING)
 
-*   qrwidgets
+*   [qrwidgets](https://github.com/qters/qrwidgets.git)
 
     widgets
     
-*   qrupdater
+*   [qrupdater](https://github.com/qters/qrupdater.git)
 
     update framework
     
-*   qrcache
+*   [qrcache](https://github.com/qters/qrcache.git)
 
     cache
     
-*   qrtools
+*   [qrtools](https://github.com/qters/qrtool.git)
 
     toolkits
