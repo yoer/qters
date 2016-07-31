@@ -22,7 +22,8 @@
 
 ## how to run
 
-*   chaos
+*   [chaos](https://github.com/Qters/QrFrame/tree/master/chaos)
+    ![qters-chaos](http://img.hoop8.com/1607C/10cJIqk1.png)
     1. copy database from '$QTERS_BASE/QrFrame/chaos/data/chaos.db' to '$QTERS_BASE/../Qters_build/debug_dest/data/chaos.db'
     2. run '$QTERS_BASE/../Qters_build/chaosd'
 
@@ -59,7 +60,7 @@
 
     cilent develop framework
 
-    *   chaos
+    *   [chaos](https://github.com/Qters/QrFrame/tree/master/chaos)
     
         a client framework in common use
     
