@@ -7,13 +7,10 @@
     or older Git versions :
 
         git clone https://github.com/yoer/qters.git
-        cd qters(which call $QTERS_BASE under)
+        cd qters( which call '$QTERS_BASE' under )
         git submodule update --init --recursive
-		
-		
-	after clone, then execute followed command to checkout all submodules's branch to master : 
 	
-		find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} checkout master \;
+after clone, then execute '*submodule-master.sh*' to checkout all submodules's branch to master.
 
 ## how to build
 
