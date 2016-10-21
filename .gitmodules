@@ -19,3 +19,6 @@
 [submodule "qrwidgets"]
 	path = qrwidgets
 	url = https://github.com/qters/qrwidgets.git
+[submodule "qrchaos"]
+	path = qrchaos
+	url = https://github.com/qters/qrchaos.git
